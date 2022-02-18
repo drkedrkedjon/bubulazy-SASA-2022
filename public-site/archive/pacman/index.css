@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+    margin: none;
+    padding: 0 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.tablero {
+    width: 560px;
+    height: 560px;
+    border: red 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.el-cuadradito {
+    width: 20px;
+    height: 20px;
+}
+.los-puntitos {
+    background-image: url(images/puntitos.png);
+}
+.el-muro {
+    background-color: blue;
+}
+.habitacion {
+    background-color: white;
+}
+.super-poder {
+    background-image: url(images/super-poder.png);
+}
+.pac-man-derecha {
+    background-image: url(images/pacman-derecha.png);
+}
+.pac-man-izquierda {
+    background-image: url(images/pacman-izquierda.png);
+}
+.pac-man-arriba {
+    background-image: url(images/pacman-arriba.png);
+}
+.pac-man-abajo {
+    background-image: url(images/pacman-abajo.png);
+}
+
+.blinky {
+    background-image: url(images/fantasma1.png);
+}
+.pinky {
+    background-image: url(images/fantasma2.png);
+}
+.inky {
+    background-image: url(images/fantasma3.png);
+}
+.clyde {
+    background-image: url(images/fantasma4.png);
+}
+.espiritu-asustado {
+    background-image: url(images/espiritu-asustado.png);
+}
