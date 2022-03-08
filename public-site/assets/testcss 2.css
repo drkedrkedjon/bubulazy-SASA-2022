@@ -1,0 +1,12 @@
+body {
+    background-color: darkred;
+    text-align: center;
+}
+h1 {
+    font-size: 8vw;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a {
+    color: antiquewhite;
+}
